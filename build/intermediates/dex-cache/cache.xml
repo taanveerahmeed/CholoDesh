@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e490d24f8622fe2d30f52e1c1d9d7faf91728d9f">
+        <dex dex="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8394c65f900682380756685b48b1298caf3d9c03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b74c5d4b1ecc870fa91df1624f4adefb26f61152/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rhythmshahriar/.android/build-cache/3ba358164aff9a8d2a56fc1d947fdb11f108fdcd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e388595587aab9cb9f919f90de90b1831db908f5">
+        <dex dex="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/pre-dexed/debug/classes_596ee9b776a33dba6550f01c473ab6f47cd71295.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rhythmshahriar/.android/build-cache/3ba358164aff9a8d2a56fc1d947fdb11f108fdcd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e388595587aab9cb9f919f90de90b1831db908f5">
+        <dex dex="/Users/rhythmshahriar/Desktop/cholo desh a2i/Rivision 2 Removed Unnecessary files/cholo-desh 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_596ee9b776a33dba6550f01c473ab6f47cd71295/classes.dex" />
+    </item>
+
+</items>

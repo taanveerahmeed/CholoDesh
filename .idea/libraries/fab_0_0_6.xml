@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="fab-0.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/3ba358164aff9a8d2a56fc1d947fdb11f108fdcd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3ba358164aff9a8d2a56fc1d947fdb11f108fdcd/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shamanland/fab/0.0.6/7cff443894b2dc46fb11a722b167581c53c7325a/fab-0.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,277 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/img_destination_cover"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id = "@+id/linearlayout"
+            android:orientation="vertical"
+            android:background="#eeeeee">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                >
+
+                <TextView
+                    android:id ="@+id/destionforlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destnations"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id ="@+id/fromlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Where do you want to start?"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"/>
+                <AutoCompleteTextView
+                    android:id="@+id/locationAutoComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#eeeeee"
+
+                    android:hint="Dhaka" />
+
+                <TextView
+                    android:id ="@+id/toforlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Where do you want to go?"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"/>
+                <AutoCompleteTextView
+                    android:id="@+id/destinationAutoComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#eeeeee"
+
+                    android:hint="Cox's Bazar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginTop="1dp"
+                >
+
+                <TextView
+                    android:id ="@+id/trvlrforlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Travel Details"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:weightSum="2">
+                    <EditText
+                        android:id="@+id/editText_no_of_tourist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableTint="@color/colorPrimary"
+                        android:layout_marginRight="2dp"
+                        android:background="#eeeeee"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:inputType="phone"
+                        android:hint="Tourists"/>
+                    <EditText
+                        android:id="@+id/editText_no_of_days"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:background="#eeeeee"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:inputType="phone"
+
+                        android:hint="Days"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginTop="1dp"
+                >
+
+                <TextView
+                    android:id ="@+id/trpdtforlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trip Dates"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp">
+                    <LinearLayout
+                        android:id="@+id/departDateLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:background="#eeeeee"
+                        android:orientation="vertical">
+                        <!--<ImageView-->
+                            <!--android:layout_width="40dp"-->
+                            <!--android:layout_height="40dp"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:scaleType="fitCenter"-->
+                            <!--android:src="@drawable/icon_calendar"-->
+                            <!--android:tint="@color/colorPrimary"/>-->
+                        <TextView
+                            android:id ="@+id/deprtforlang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Departing"
+                            android:padding="3dp"
+                            android:textColor="@color/blackShade"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:id="@+id/departDateTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:text="DD-MM-YYYYY"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/returnDateLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+
+                        android:layout_marginLeft="5dp"
+                        android:background="#eeeeee"
+                        android:orientation="vertical">
+                        <!--<ImageView-->
+                            <!--android:layout_width="40dp"-->
+                            <!--android:layout_height="40dp"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:scaleType="fitCenter"-->
+                            <!--android:src="@drawable/icon_calendar"-->
+                            <!--android:tint="@color/colorPrimary"/>-->
+                        <TextView
+                            android:id ="@+id/returnforlang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Returning"
+                            android:padding="3dp"
+                            android:textColor="@color/blackShade"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:id="@+id/returnDateTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:text="DD-MM-YYYYY"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                >
+                <Button
+                    android:id="@+id/searchButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:text="Search"
+                    android:textColor="@color/colorWhite"
+
+
+                    android:background="@drawable/rounded_button"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
